@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+<view style="height:1300rpx;">
+</view>
+<view class="item">
+111111111
+</view>
+<block wx:for="{{rows}}" wx:key="id"  wx:for-index="i">
+<view class="item">
+  {{rows[i]["name"]}}
+</view>
+</block>
+</view>
